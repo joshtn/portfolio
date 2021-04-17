@@ -34,7 +34,7 @@ const Project = () => {
                         </div>
                    </div>
                 </div>
-              <a  href="https://dazzling-keller-4102cc.netlify.app/" target="_blank" rel="noreferrer" alt="employee homepage"><img src={img1}/></a>
+              <a  href="https://dazzling-keller-4102cc.netlify.app/" target="_blank" rel="noreferrer" alt="employee homepage"><img alt="app homepage" src={img1}/></a>
             </div>
 
             <div className="portfolio-container transition3">
@@ -62,7 +62,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <a  href="https://joshtn.github.io/grisinne" target="_blank" rel="noreferrer" alt="grisinne screen"><img src={img2}/></a>
+                <a  href="https://joshtn.github.io/grisinne" target="_blank" rel="noreferrer" alt="grisinne screen"><img  alt="app homepage" src={img2}/></a>
             </div>
 
             <div className="portfolio-container transition3">
@@ -91,7 +91,7 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <a  href="https://explormax.netlify.app/" target="_blank" rel="noreferrer" alt="explormax screen"><img src={img3}/></a>
+                <a  href="https://explormax.netlify.app/" target="_blank" rel="noreferrer" alt="explormax screen"><img  alt="app homepage" src={img3}/></a>
             </div>
  
  

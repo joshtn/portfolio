@@ -4,7 +4,7 @@
                 <div className="left">
                     <div className="inner transition2">
                         <p className="subtitle">Software Engineer</p>
-                        <a className="featured-title">Bachelor in Computer Science and Economics @ KTH</a>
+                        <p className="featured-title">Bachelor in Computer Science and Economics @ KTH</p>
                         <p className="featured-desc"></p>
                     </div>
                 </div>

@@ -9,8 +9,8 @@ const Nav = ({ goToPro, goToBot }) => {
 
                 <nav>
                     <ul>
-                        <li><a onClick={goToPro}>My work</a></li>
-                        <li><a onClick={goToBot}>Contact</a></li>
+                        <li><button onClick={goToPro}>My work</button></li>
+                        <li><button onClick={goToBot}>Contact</button></li>
                     </ul>
                 </nav>
             </header>

@@ -6,6 +6,7 @@ const Hero = () => {
     var tl = gsap.timeline()
 
     useEffect(() => {
+    var tl = gsap.timeline()
     tl.from('.content', {
         y: '-30%',
         opacity: 0,
