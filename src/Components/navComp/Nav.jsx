@@ -5,7 +5,7 @@ const Nav = ({ goToPro, goToBot }) => {
     return (
         <div className="nav-container">
             <header>
-                <a href="#" className="logo">Josh Tan</a>
+                <a href="/" className="logo">Josh Tan</a>
 
                 <nav>
                     <ul>

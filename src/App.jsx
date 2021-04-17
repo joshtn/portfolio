@@ -5,8 +5,7 @@ import About from './Components/aboutComp/About.jsx'
 import Project from './Components/projectComp/Project.jsx'
 import Contact from './Components/contactComp/Contact.jsx'
 import ScrollTop from './Components/scrollComp/ScrollTop.jsx'
-import {useEffect, useRef, useCallback} from 'react'
-import {useWindowSize} from './Hooks/useWindowSize.jsx'
+import {useRef} from 'react'
 
 function App() {
     const projectSection = useRef(null)

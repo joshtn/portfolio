@@ -22,19 +22,19 @@ const Project = () => {
                         </div>
                         <div className="link-container">
                             <div className="link">
-                              <a href="https://github.com/joshtn/Employee-System" target="_blank">
+                              <a href="https://github.com/joshtn/Employee-System" target="_blank" rel="noreferrer">
                                 <span className="iconify" data-icon="akar-icons:github-fill" data-inline="false"></span> Code
                               </a>
                             </div>
                             <div className="link">
-                              <a href="https://dazzling-keller-4102cc.netlify.app/" target="_blank">
+                              <a href="https://dazzling-keller-4102cc.netlify.app/" target="_blank" rel="noreferrer">
                                 <span className="iconify" data-icon="bi:globe" data-inline="false"></span> Site
                               </a>
                             </div>
                         </div>
                    </div>
                 </div>
-              <a  href="https://dazzling-keller-4102cc.netlify.app/" target="_blank" alt="employee homepage"><img src={img1}/></a>
+              <a  href="https://dazzling-keller-4102cc.netlify.app/" target="_blank" rel="noreferrer" alt="employee homepage"><img src={img1}/></a>
             </div>
 
             <div className="portfolio-container transition3">
@@ -50,19 +50,19 @@ const Project = () => {
                         </div>
                         <div className="link-container">
                             <div className="link">
-                              <a href="https://github.com/joshtn/grisinne" target="_blank">
+                              <a href="https://github.com/joshtn/grisinne" target="_blank" rel="noreferrer">
                                 <span className="iconify" data-icon="akar-icons:github-fill" data-inline="false"></span> Code
                               </a>
                             </div>
                             <div className="link">
-                              <a href="https://joshtn.github.io/grisinne" target="_blank">
+                              <a href="https://joshtn.github.io/grisinne" target="_blank" rel="noreferrer">
                                 <span className="iconify" data-icon="bi:globe" data-inline="false"></span> Site
                               </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a  href="https://joshtn.github.io/grisinne" target="_blank "alt="grisinne screen"><img src={img2}/></a>
+                <a  href="https://joshtn.github.io/grisinne" target="_blank" rel="noreferrer" alt="grisinne screen"><img src={img2}/></a>
             </div>
 
             <div className="portfolio-container transition3">
@@ -79,19 +79,19 @@ const Project = () => {
                         </div>
                         <div className="link-container">
                             <div className="link">
-                              <a href="https://github.com/joshtn/travel-explormax" target="_blank">
+                              <a href="https://github.com/joshtn/travel-explormax" target="_blank" rel="noreferrer">
                                 <span className="iconify" data-icon="akar-icons:github-fill" data-inline="false"></span> Code
                               </a>
                             </div>
                             <div className="link">
-                              <a href="https://explormax.netlify.app/" target="_blank">
+                              <a href="https://explormax.netlify.app/" target="_blank" rel="noreferrer">
                                 <span className="iconify" data-icon="bi:globe" data-inline="false"></span> Site
                               </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a  href="https://explormax.netlify.app/" target="_blank" alt="explormax screen"><img src={img3}/></a>
+                <a  href="https://explormax.netlify.app/" target="_blank" rel="noreferrer" alt="explormax screen"><img src={img3}/></a>
             </div>
  
  

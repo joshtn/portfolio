@@ -42,7 +42,7 @@ const Hero = () => {
         opacity: 0,
         duration: 1.2,
         stagger: .3
-    })
+    }, [tl])
 
 
     return (
