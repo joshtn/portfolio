@@ -26,7 +26,7 @@ const Nav = ({ goToPro, goToBot }) => {
                             <span className="iconify" data-icon="akar-icons:linkedin-fill" data-inline="false"></span>
                         </a>
                     </li>
-                    <li><a href="#"><span className="iconify" data-icon="clarity:email-line" data-inline="false"></span></a></li>
+                  <li><a href="mailto:josht@kth.se"><span className="iconify" data-icon="clarity:email-line" data-inline="false"></span></a></li>
                 </ul>
             </div>
         </div>

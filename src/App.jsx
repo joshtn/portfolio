@@ -15,45 +15,12 @@ function App() {
     
     const goToBottom = () => window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth'})
 
-    const size = useWindowSize()
-    const containerRef = useRef(null)
-
-    const data = {
-        ease: 0.1,
-        curr: 0,
-        prev: 0,
-        rounded: 0,
-    }
-
-    const setBodyHeight = () => {
-        document.body.style.height = `${
-            containerRef.current.getBoundingClientRect().height
-        }px`
-    }
-
-
-    const smoothScroll = useCallback(() => {
-    data.curr = window.scrollY;
-    data.prev += (data.curr - data.prev) * data.ease;
-    data.rounded = Math.round(data.prev * 100) / 100;
-    containerRef.current.style.transform = `translate3d(0, -${data.rounded}px, 0)`
-
-    requestAnimationFrame(() => smoothScroll());
-  }, [data]);
-
-     useEffect(() => {
-    requestAnimationFrame(() => smoothScroll());
-  }, [smoothScroll]);
-
-    useEffect(() => {
-        setBodyHeight()
-    }, [size.height])
 
 
 
   return (
       <div className="App">
-          <div className="scroll" ref={containerRef}>
+          <div className="scroll">
             <Nav goToPro={goToProjectSection} goToBot={goToBottom}/>
             <Hero/>
             <About/>
