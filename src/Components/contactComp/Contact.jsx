@@ -22,7 +22,7 @@ const Contact = () => {
 
             </div>
             <div className="contact-right">
-                <form name="contact v1" method="post" onSubmit="submit" netlify>
+                <form name="contact v1" method="post" onSubmit="submit" data-netlify="true">
                     <input type="hidden" name="form-name" value="contact v1"/>
                     <div>
                         <input type="text" name="name" placeholder="Name"/>
