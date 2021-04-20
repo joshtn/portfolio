@@ -42,7 +42,7 @@ const Project = () => {
                     <div className="inner">
                         <p className="subtitle">Project 2</p>
                         <p className="featured-title">Grisinne - Learn zhuyin</p>
-                        <p className="featured-desc">Flashcard app to help you remember the charachters and their prononication.</p>
+                        <p className="featured-desc">Flashcard app to help you remember the characters and their prononication.</p>
                         <div className="tech-container">
                             <div className="tech">React</div>
                             <div className="tech">Javascript</div>
