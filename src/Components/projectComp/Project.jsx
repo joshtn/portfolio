@@ -11,7 +11,7 @@ const Project = () => {
                     <div className="inner">
                         <p className="subtitle">Project 1</p>
                         <p className="featured-title">Employee System</p>
-                      <p className="featured-desc">A Full-stack CRUD application with a login system. Login info below...<br/> Username: guest1 <br/>  Password: hello</p>
+                      <p className="featured-desc">A Full-stack CRUD application with a login system. Login info below... Takes a few seconds to load up.<br/> Username: guest1 <br/>  Password: hello</p>
                          <div className="tech-container">
                             <div className="tech">React</div>
                             <div className="tech">Javascript</div>
